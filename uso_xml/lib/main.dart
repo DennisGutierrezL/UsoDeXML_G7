@@ -82,7 +82,7 @@ class _MyHomePage extends State<MyHomePage> {
       body: Column(
         children: [
           SizedBox(
-            height: 200, // establece una altura fija para el contenedor
+            height: 325, // establece una altura fija para el contenedor
             child: Container(
               child: FutureBuilder(
                 future: getComidaFromXML(context),
@@ -102,7 +102,7 @@ class _MyHomePage extends State<MyHomePage> {
             ),
           ),
           SizedBox(
-            height: 200, // establece una altura fija para el contenedor
+            height: 325, // establece una altura fija para el contenedor
             child: Container(
               child: FutureBuilder(
                 future: getPlantaFromXML(context),
