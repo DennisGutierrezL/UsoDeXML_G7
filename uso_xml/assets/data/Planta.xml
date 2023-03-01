@@ -6,6 +6,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$2.44</PRICE>
         <AVAILABILITY>031599</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Columbine</COMMON>
@@ -14,6 +15,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$9.37</PRICE>
         <AVAILABILITY>030699</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Marsh Marigold</COMMON>
@@ -22,6 +24,7 @@
         <LIGHT>Mostly Sunny</LIGHT>
         <PRICE>$6.81</PRICE>
         <AVAILABILITY>051799</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Cowslip</COMMON>
@@ -30,6 +33,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$9.90</PRICE>
         <AVAILABILITY>030699</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Dutchman's-Breeches</COMMON>
@@ -38,6 +42,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$6.44</PRICE>
         <AVAILABILITY>012099</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Ginger, Wild</COMMON>
@@ -46,6 +51,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$9.03</PRICE>
         <AVAILABILITY>041899</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Hepatica</COMMON>
@@ -54,6 +60,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$4.45</PRICE>
         <AVAILABILITY>012699</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Liverleaf</COMMON>
@@ -62,6 +69,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$3.99</PRICE>
         <AVAILABILITY>010299</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Jack-In-The-Pulpit</COMMON>
@@ -70,6 +78,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$3.23</PRICE>
         <AVAILABILITY>020199</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Mayapple</COMMON>
@@ -78,6 +87,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$2.98</PRICE>
         <AVAILABILITY>060599</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Phlox, Woodland</COMMON>
@@ -86,6 +96,7 @@
         <LIGHT>Sun or Shade</LIGHT>
         <PRICE>$2.80</PRICE>
         <AVAILABILITY>012299</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Phlox, Blue</COMMON>
@@ -94,6 +105,7 @@
         <LIGHT>Sun or Shade</LIGHT>
         <PRICE>$5.59</PRICE>
         <AVAILABILITY>021699</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Spring-Beauty</COMMON>
@@ -102,6 +114,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$6.59</PRICE>
         <AVAILABILITY>020199</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Trillium</COMMON>
@@ -110,6 +123,7 @@
         <LIGHT>Sun or Shade</LIGHT>
         <PRICE>$3.90</PRICE>
         <AVAILABILITY>042999</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Wake Robin</COMMON>
@@ -118,6 +132,7 @@
         <LIGHT>Sun or Shade</LIGHT>
         <PRICE>$3.20</PRICE>
         <AVAILABILITY>022199</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Violet, Dog-Tooth</COMMON>
@@ -126,6 +141,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$9.04</PRICE>
         <AVAILABILITY>020199</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Trout Lily</COMMON>
@@ -134,6 +150,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$6.94</PRICE>
         <AVAILABILITY>032499</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Adder's-Tongue</COMMON>
@@ -142,6 +159,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$9.58</PRICE>
         <AVAILABILITY>041399</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Anemone</COMMON>
@@ -150,6 +168,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$8.86</PRICE>
         <AVAILABILITY>122698</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Grecian Windflower</COMMON>
@@ -158,6 +177,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$9.16</PRICE>
         <AVAILABILITY>071099</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Bee Balm</COMMON>
@@ -166,6 +186,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$4.59</PRICE>
         <AVAILABILITY>050399</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Bergamot</COMMON>
@@ -174,6 +195,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$7.16</PRICE>
         <AVAILABILITY>042799</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Black-Eyed Susan</COMMON>
@@ -182,6 +204,7 @@
         <LIGHT>Sunny</LIGHT>
         <PRICE>$9.80</PRICE>
         <AVAILABILITY>061899</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Buttercup</COMMON>
@@ -190,6 +213,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$2.57</PRICE>
         <AVAILABILITY>061099</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Crowfoot</COMMON>
@@ -198,6 +222,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$9.34</PRICE>
         <AVAILABILITY>040399</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Butterfly Weed</COMMON>
@@ -206,6 +231,7 @@
         <LIGHT>Sunny</LIGHT>
         <PRICE>$2.78</PRICE>
         <AVAILABILITY>063099</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Cinquefoil</COMMON>
@@ -214,6 +240,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$7.06</PRICE>
         <AVAILABILITY>052599</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Primrose</COMMON>
@@ -222,6 +249,7 @@
         <LIGHT>Sunny</LIGHT>
         <PRICE>$6.56</PRICE>
         <AVAILABILITY>013099</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Gentian</COMMON>
@@ -230,6 +258,7 @@
         <LIGHT>Sun or Shade</LIGHT>
         <PRICE>$7.81</PRICE>
         <AVAILABILITY>051899</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Blue Gentian</COMMON>
@@ -238,6 +267,7 @@
         <LIGHT>Sun or Shade</LIGHT>
         <PRICE>$8.56</PRICE>
         <AVAILABILITY>050299</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Jacob's Ladder</COMMON>
@@ -246,6 +276,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$9.26</PRICE>
         <AVAILABILITY>022199</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Greek Valerian</COMMON>
@@ -254,6 +285,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$4.36</PRICE>
         <AVAILABILITY>071499</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>California Poppy</COMMON>
@@ -262,6 +294,7 @@
         <LIGHT>Sun</LIGHT>
         <PRICE>$7.89</PRICE>
         <AVAILABILITY>032799</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Shooting Star</COMMON>
@@ -270,6 +303,7 @@
         <LIGHT>Mostly Shady</LIGHT>
         <PRICE>$8.60</PRICE>
         <AVAILABILITY>051399</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Snakeroot</COMMON>
@@ -278,6 +312,7 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$5.63</PRICE>
         <AVAILABILITY>071199</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
     <PLANT>
         <COMMON>Cardinal Flower</COMMON>
@@ -286,5 +321,6 @@
         <LIGHT>Shade</LIGHT>
         <PRICE>$3.02</PRICE>
         <AVAILABILITY>022299</AVAILABILITY>
+        <image>https://www.renovablesverdes.com/wp-content/uploads/2022/01/germinacion.jpeg</image>
     </PLANT>
 </CATALOG>

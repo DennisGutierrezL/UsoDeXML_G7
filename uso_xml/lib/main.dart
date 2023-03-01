@@ -54,26 +54,74 @@ class _MyHomePage extends State<MyHomePage> {
     return comida;
   }
 
+  Future<List<Planta>> getPlantaFromXML(BuildContext context) async {
+    final xmlString = await DefaultAssetBundle.of(context)
+        .loadString("assets/data/Planta.xml");
+    print(xmlString);
+    List<Planta> planta = [];
+    var raw = xml.XmlDocument.parse(xmlString);
+    var elements = raw.findAllElements("PLANT");
+
+    for (var item in elements) {
+      planta.add(Planta(
+          item.findElements("COMMON").first.text,
+          item.findElements("BOTANICAL").first.text,
+          item.findElements("ZONE").first.text,
+          item.findElements("LIGHT").first.text,
+          item.findElements("PRICE").first.text,
+          item.findElements("AVAILABILITY").first.text,
+          item.findElements("image").first.text));
+    }
+    return planta;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
-      body: Container(
-        child: FutureBuilder(
-          future: getComidaFromXML(context),
-          builder: (context, snapshot) {
-            if (snapshot.hasData) {
-              return ListView(
-                children: _listComida(snapshot.data),
-              );
-            } else if (snapshot.hasError) {
-              return const Text("Error");
-            } else {
-              return const Center(child: CircularProgressIndicator());
-            }
-          },
-        ),
-        color: Colors.grey,
+      body: Column(
+        children: [
+          SizedBox(
+            height: 200, // establece una altura fija para el contenedor
+            child: Container(
+              child: FutureBuilder(
+                future: getComidaFromXML(context),
+                builder: (context, snapshot) {
+                  if (snapshot.hasData) {
+                    return ListView(
+                      children: _listComida(snapshot.data),
+                    );
+                  } else if (snapshot.hasError) {
+                    return const Text("Error");
+                  } else {
+                    return const Center(child: CircularProgressIndicator());
+                  }
+                },
+              ),
+              color: Colors.grey,
+            ),
+          ),
+          SizedBox(
+            height: 200, // establece una altura fija para el contenedor
+            child: Container(
+              child: FutureBuilder(
+                future: getPlantaFromXML(context),
+                builder: (context, snapshot) {
+                  if (snapshot.hasData) {
+                    return ListView(
+                      children: _listPlanta(snapshot.data),
+                    );
+                  } else if (snapshot.hasError) {
+                    return const Text("Error");
+                  } else {
+                    return const Center(child: CircularProgressIndicator());
+                  }
+                },
+              ),
+              color: Colors.grey,
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -81,7 +129,7 @@ class _MyHomePage extends State<MyHomePage> {
 
 List<Widget> _listComida(data) {
   List<Widget> comidaList = [];
-  comidaList.add(const Card(child: Center(child: Text("Página principal"))));
+  comidaList.add(const Card(child: Center(child: Text("comida.xml"))));
   for (var comida in data) {
     comidaList.add(
       Padding(
@@ -134,4 +182,75 @@ List<Widget> _listComida(data) {
     );
   }
   return comidaList;
+}
+
+List<Widget> _listPlanta(data) {
+  List<Widget> plantaList = [];
+  plantaList.add(const Card(child: Center(child: Text("Planta.xml"))));
+  for (var planta in data) {
+    plantaList.add(
+      Padding(
+        padding: const EdgeInsets.symmetric(vertical: 8.0),
+        child: Card(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Image.network(planta.image.toString()),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "En común: " + planta.commom.toString(),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blue,
+                          fontSize: 16),
+                    ),
+                    Text(
+                      "Botánica: " + planta.botanical.toString(),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blueGrey,
+                          fontSize: 14),
+                    ),
+                    Text(
+                      "Zona: " + planta.zone.toString(),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blueGrey,
+                          fontSize: 14),
+                    ),
+                    Text(
+                      "Ligero: " + planta.light.toString(),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blueGrey,
+                          fontSize: 14),
+                    ),
+                    Text(
+                      "Precio: " + planta.price.toString(),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blueGrey,
+                          fontSize: 14),
+                    ),
+                    Text(
+                      "Disponibilidad: " + planta.availability.toString(),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blueGrey,
+                          fontSize: 14),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+  return plantaList;
 }
